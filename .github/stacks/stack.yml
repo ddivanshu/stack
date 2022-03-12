@@ -46,7 +46,7 @@ inputs:
     default: 'true'
     description: Enable Vulnerability Alerts
 
-configs:
+ - configs:
   - repo-metadata:
       parameters:
         description: Created from 'nextjs-azure-appservice' stack
