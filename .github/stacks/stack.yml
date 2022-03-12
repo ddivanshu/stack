@@ -57,12 +57,12 @@ configs:
   - branches:    
     - name: dev*
       parameters:
-        enforce-admins: false
+        enforce-admins: true
         dismiss-stale-reviews: true
-        require-code-owner-reviews: false
-        required-approving-review-count: 0
+        require-code-owner-reviews: true
+        required-approving-review-count: 1
         allow-force-pushes: true
-        allow-deletions: true
+        allow-deletions: false
 
   - environments: 
     - name: development
